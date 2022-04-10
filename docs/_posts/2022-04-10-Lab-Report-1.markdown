@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Lab Report 1: Remote Acess to ieng6"
+date:   2022-04-10 15:08:25 -0700
+categories: LabReport 
+---
+For the first lab, we learned how to use the SSH protocol to remotely access UCSD's ieng6 servers.
