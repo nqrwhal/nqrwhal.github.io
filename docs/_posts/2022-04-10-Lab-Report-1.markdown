@@ -14,4 +14,4 @@ For the first lab, we learned how to use the SSH protocol to remotely access UCS
 - First, you must retrieve your course specific username for the class you are trying to connect to ieng6 for. You can find it [here](https://sdacs.ucsd.edu/~icc/index.php)
 - If you are using a Windows OS, you need to install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Otherwise, Mac and Linux users will already have SSH clients preinstalled.
 - VS Code has a built in feature to streamline the remote connection option. We will follow the documentation [here](https://code.visualstudio.com/docs/remote/ssh#_connect-to-a-remote-host).
-- After opening a terminal, you will enter the following command: `ssh cs15lsp22**@ieng6.ucsd.edu`. Replace the `**` with the two letters corresponding to your account. Reply `y` to any prompts and continue.
+- After opening a terminal, you will enter the following command: `ssh cs15lsp22**@ieng6.ucsd.edu`. Replace the `**` with the two letters corresponding to your account. Reply `yes` to any prompts and continue.
