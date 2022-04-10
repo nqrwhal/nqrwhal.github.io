@@ -7,5 +7,10 @@ categories: Lab-Report
 For the first lab, we learned how to use the SSH protocol to remotely access UCSD's ieng6 servers. Here's a guide on how we did it.
 
 ## Installing Visual Stuio Code 
-- The installation process of VS Code is pretty well documented on their [Website](https://code.visualstudio.com/).
+- The installation process of VS Code is pretty well documented on their [website](https://code.visualstudio.com/).
 - You can follow the steps there to install and configure it properly.
+
+## Remotely Connecting to ieng6
+- First, you must retrieve your course specific username for the class you are trying to connect to ieng6 for. You can find it [here](https://sdacs.ucsd.edu/~icc/index.php)
+- If you are using a Windows OS, you need to install [OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). Otherwise, Mac and Linux users will already have SSH clients preinstalled.
+- VS Code has a built in feature to streamline the remote connection option. We will follow the documentation [here](https://code.visualstudio.com/docs/remote/ssh#_connect-to-a-remote-host)
