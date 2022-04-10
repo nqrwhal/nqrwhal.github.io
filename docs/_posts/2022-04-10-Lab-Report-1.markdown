@@ -24,4 +24,4 @@ For the first lab, we learned how to use the SSH protocol to remotely access UCS
 - `ls -a`
 - `exit` (Note: this command will log you out of your SSH session)
 
-## Using `SCP` to transfer files between your computer and your server
+## Using SCP to transfer files between your computer and your server
