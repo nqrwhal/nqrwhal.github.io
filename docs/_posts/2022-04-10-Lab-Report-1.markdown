@@ -25,3 +25,6 @@ For the first lab, we learned how to use the SSH protocol to remotely access UCS
 - `exit` (Note: this command will log you out of your SSH session)
 
 ## Using SCP to transfer files between your computer and your server
+- A useful application of SSH is to transfer files between computers remotely. You can learn more about the usage of SCP by running `scp help` in the terminal.
+- Create a text file and name it something cool. Then, try running the following command: `scp [filename].txt cs15lsp22**@ieng6.ucsd.edu:~/` where you replace filename with the name of the file, and the `**` with your two letter id. 
+- After entering your password, the file should beging transferring. You can check if the transfer was successful by running `ls -lat` on the server and noting if the file is present.
