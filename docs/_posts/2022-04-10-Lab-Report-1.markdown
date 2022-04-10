@@ -18,3 +18,10 @@ For the first lab, we learned how to use the SSH protocol to remotely access UCS
 - A prompt asking for your password will appear. Enter your password and continue. If you haven't reset your password for the course account yet, you can do so [here](https://sdacs.ucsd.edu/~icc/index.php).
 
 ## Simple Unix Commands to try
+- `cd ~`
+- `cd`
+- `ls -lat`
+- `ls -a`
+- `exit` (Note: this command will log you out of your SSH session)
+
+## Using `SCP` to transfer files between your computer and your server
