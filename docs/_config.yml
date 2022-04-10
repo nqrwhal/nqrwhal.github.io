@@ -28,7 +28,7 @@ twitter_username: nqrwhal
 github_username:  nqrwhal
 
 # Build settings
-theme: jekyll-theme-leap-day
+theme: minima
 plugins:
   - jekyll-feed
 
