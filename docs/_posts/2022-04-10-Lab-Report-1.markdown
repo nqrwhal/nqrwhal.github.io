@@ -4,4 +4,8 @@ title:  "Lab Report 1: Remote Acess to ieng6"
 date:   2022-04-10 16:00:00 -0700
 categories: Lab-Report 
 ---
-For the first lab, we learned how to use the SSH protocol to remotely access UCSD's ieng6 servers.
+For the first lab, we learned how to use the SSH protocol to remotely access UCSD's ieng6 servers. Here's a guide on how we did it.
+
+## Installing Visual Stuio Code 
+- The installation process of VS Code is pretty well documented on their [Website](https://code.visualstudio.com/).
+- You can follow the steps there to install and configure it properly.
