@@ -35,4 +35,5 @@ For the first lab, we learned how to use the SSH protocol to remotely access UCS
 - Once you have the ssh public key file, you can `mkdir .ssh` on the server, and use SCP to transfer the key file.
 - If you did it right, you should be able to ssh without authentication.
 
-##
+## Optimizing remote running
+- You can use the remote servers to run java files, while making edits on your local computer. You can use a script to speed up the process. 
