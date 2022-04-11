@@ -7,7 +7,7 @@ categories: Lab-Report
 For the first lab, we learned how to use the SSH protocol to remotely access UCSD's ieng6 servers. Here's a guide on how we did it.
 
 ## Installing Visual Stuio Code 
-![img1](img1.png)
+![img1](https://raw.githubusercontent.com/nqrwhal/nqrwhal.github.io/master/docs/img1.png)
 - The installation process of VS Code is pretty well documented on their [website](https://code.visualstudio.com/).
 - You can follow the steps there to install and configure it properly.
 
