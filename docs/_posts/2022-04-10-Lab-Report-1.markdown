@@ -28,3 +28,11 @@ For the first lab, we learned how to use the SSH protocol to remotely access UCS
 - A useful application of SSH is to transfer files between computers remotely. You can learn more about the usage of SCP by running `scp help` in the terminal.
 - Create a text file and name it something cool. Then, try running the following command: `scp [filename].txt cs15lsp22**@ieng6.ucsd.edu:~/` where you replace filename with the name of the file, and the `**` with your two letter id. 
 - After entering your password, the file should beging transferring. You can check if the transfer was successful by running `ls -lat` on the server and noting if the file is present.
+
+## SSH Keys
+- SSH keys are a way for you to authenticate an SSH connection without typing your password every time you want to connect to a server or use SCP to transfer a file.
+- You can use `ssh-keygen` to generate an SSH keypair.
+- Once you have the ssh public key file, you can `mkdir .ssh` on the server, and use SCP to transfer the key file.
+- If you did it right, you should be able to ssh without authentication.
+
+##
