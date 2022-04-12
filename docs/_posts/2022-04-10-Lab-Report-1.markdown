@@ -42,3 +42,5 @@ For the first lab, we learned how to use the SSH protocol to remotely access UCS
 
 ## Optimizing remote running
 - You can use the remote servers to run java files, while making edits on your local computer. You can use a script to speed up the process. 
+
+## BRIAN HAS NO BITCHES
