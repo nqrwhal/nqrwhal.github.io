@@ -41,5 +41,6 @@ For the first lab, we learned how to use the SSH protocol to remotely access UCS
 - If you did it right, you should be able to ssh without authentication.
 
 ## Optimizing remote running
-- You can use the remote servers to run java files, while making edits on your local computer. You can use a script to speed up the process. 
+- You can use the remote servers to run java files, while making edits on your local computer. You can use a script to speed up the process. Additionally, you can use a `;` to chain commands together. 
+- For example, you can write out: `scp [filename] [location]; javac filename.java; java filename [args]`. This would transfer the updated file, recompile it, and run the main command.
 
