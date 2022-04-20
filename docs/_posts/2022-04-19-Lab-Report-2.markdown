@@ -8,5 +8,4 @@ There's no way to avoid it. Professionally, you *will* have to work with others,
 
 Here is a github repository with an example of collaborative bug hunting.
 
-<div class="github-card" data-user="nqrwhal" data-repo="markdown-parser"></div>
-<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
+<script src="https://gist.github.com/nqrwhal/16a3d7eb1ca15eda9cb4886512dcc8d3.js"></script>
