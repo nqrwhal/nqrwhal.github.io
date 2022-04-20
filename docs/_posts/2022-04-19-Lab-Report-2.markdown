@@ -14,10 +14,25 @@ From the first impression, we could already tell that this implementation of the
 Here is an example of a file that would have caused a fatal error in the previous code, but passes without fail in my revision:
 <script src="https://gist.github.com/nqrwhal/a7d5ff070e4cab86f569ac448ea6582d.js"></script>
 
+The bug in this case, is found in the empty lines at the end of the file. Because the code is written improperly with loops, the program enters an infinite loop and eventually the machine runs out of memory. My new approach turned the lines of the markdown file into an ArrayList of Strings, and deals with each one separately. 
+
 
 Comparing the rewritten code to the original code, it is clear that my first rewrite handled several of the problems.
 <script src="https://gist.github.com/nqrwhal/16a3d7eb1ca15eda9cb4886512dcc8d3.js"></script>
 
-## A simple look at the BLAME will highlight the biggest differences:
+## Blame from rev 1 to rev 2:
 ![blame1](https://raw.githubusercontent.com/nqrwhal/nqrwhal.github.io/master/docs/blame1.jpg)
-[[]](google.com)
+
+
+
+After a considerable amount of consideration and testing, the following is the perfected code which can detect all of the bugs that had previously plagued the earlier code. It can parse multiple URLs per line, as well as detect, handle, and subsequently ignore malformed markdown links.
+## Blame from rev 2 to final rev:
+![blame1](https://raw.githubusercontent.com/nqrwhal/nqrwhal.github.io/master/docs/blame1.jpg)
+
+Here is the code. I am quite proud of this solution:
+<script src="https://gist.github.com/nqrwhal/7aaa31fcbda4f57c6fc7a49f204d63ca.js"></script>
+
+
+Here is an example of a markdown file which would crash my previous code:
+<script src="https://gist.github.com/nqrwhal/3cd18b537acc355ceb1313f9b34c6f81.js"></script>
+With the new and vastly improved error handling and accounting for edge cases, the new and updated code handles this with ease. Whereas running the older code with this file would produce malformed links, as well as false positives, this new code performs as it should.
