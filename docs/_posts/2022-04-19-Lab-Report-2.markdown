@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Lab Report 2: Troubleshooting Code Collaboratively"
+date:   2022-04-19 16:00:00 -0700
+categories: Lab-Report 
+---
+There's no way to avoid it. Professionally, you *will* have to work with others, and it's best to learn how to do so early on.
+
+Here is a github repository with an example of collaborative bug hunting.
+
+<div class="github-card" data-user="nqrwhal" data-repo="markdown-parser"></div>
+<script src="https://cdn.jsdelivr.net/gh/lepture/github-cards@latest/jsdelivr/widget.js"></script>
