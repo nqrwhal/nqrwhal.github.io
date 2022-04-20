@@ -6,6 +6,9 @@ categories: Lab-Report
 ---
 There's no way to avoid it. Professionally, you *will* have to work with others, and it's best to learn how to do so early on.
 
-Here is a github repository with an example of collaborative bug hunting.
+Here is the code my group was given at the beginning of the assignment:
+<script src="https://gist.github.com/nqrwhal/14b196f73020ba24b987d15c64861cfa.js"></script>
+
+From the first impression, we could already tell that this implementation of the code would be susceptible to various errors, bugs, and edge cases.
 
 <script src="https://gist.github.com/nqrwhal/16a3d7eb1ca15eda9cb4886512dcc8d3.js"></script>
