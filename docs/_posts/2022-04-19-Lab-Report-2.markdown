@@ -17,5 +17,5 @@ Here is an example of a file that would have caused a fatal error in the previou
 
 Comparing the rewritten code to the original code, it is clear that my first rewrite handled several of the problems.
 <script src="https://gist.github.com/nqrwhal/16a3d7eb1ca15eda9cb4886512dcc8d3.js"></script>
-A simple look at the BLAME will highlight the biggest difference:
-![blame1](https://prnt.sc/JF7WSsSBIIP7)
+A simple look at the BLAME will highlight the biggest differences:
+![blame1](https://raw.githubusercontent.com/nqrwhal/nqrwhal.github.io/master/docs/blame1.png)
