@@ -20,4 +20,4 @@ Comparing the rewritten code to the original code, it is clear that my first rew
 
 ## A simple look at the BLAME will highlight the biggest differences:
 ![blame1](https://raw.githubusercontent.com/nqrwhal/nqrwhal.github.io/master/docs/blame1.jpg)
-[s](ass)
+[](ass         )
