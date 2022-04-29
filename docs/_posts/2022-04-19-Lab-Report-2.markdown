@@ -16,7 +16,7 @@ Here is an example of a file that would have caused a fatal error in the previou
 We run into heap space errors due to an infinite loop.
 
 
-![heap1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/docs/img5.png)
+![heap1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/docs/img5.jpg)
 
 
 The bug in this case, is found in the empty lines at the end of the file. Because the code is written improperly with loops, the program enters an infinite loop and eventually the machine runs out of memory. My new approach turned the lines of the markdown file into an ArrayList of Strings, and deals with each one separately. 
