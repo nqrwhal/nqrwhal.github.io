@@ -14,7 +14,7 @@ From the first impression, we could already tell that this implementation of the
 Here is an example of a file that would have caused a fatal error in the previous code, but passes without fail in my revision:
 <script src="https://gist.github.com/nqrwhal/a7d5ff070e4cab86f569ac448ea6582d.js"></script>
 We run into heap space errors due to an infinite loop.
-![heap1](https://raw.githubusercontent.com/nqrwhal/nqrwhal.github.io/master/docs/img5.jpg)
+![heap1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/docs/img5.png)
 
 
 The bug in this case, is found in the empty lines at the end of the file. Because the code is written improperly with loops, the program enters an infinite loop and eventually the machine runs out of memory. My new approach turned the lines of the markdown file into an ArrayList of Strings, and deals with each one separately. 
