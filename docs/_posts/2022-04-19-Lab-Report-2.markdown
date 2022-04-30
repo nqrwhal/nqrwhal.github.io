@@ -6,6 +6,7 @@ categories: Lab-Report
 ---
 There's no way to avoid it. Professionally, you *will* have to work with others, and it's best to learn how to do so early on.
 
+### Original Code (Revision 1):
 Here is the code my group was given at the beginning of the assignment:
 <script src="https://gist.github.com/nqrwhal/14b196f73020ba24b987d15c64861cfa.js"></script>
 
@@ -22,7 +23,7 @@ We run into heap space errors due to an infinite loop. The empty line when runni
 ![loop](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/infiniteloop.jpg?raw=true)
 
 The bug in this case, is specifically because of the empty lines. Because the code is written improperly with loops, the program enters an infinite loop and eventually the machine runs out of memory and the program crashes.
-
+### Revision 2:
 I rewrote the code to return the file contents as an ArrayList composed of each line of the file. It will deal with empty lines properly without a crash. 
 <script src="https://gist.github.com/nqrwhal/16a3d7eb1ca15eda9cb4886512dcc8d3.js"></script>
 
@@ -38,7 +39,7 @@ The output symptoms look like so:
 ![result2](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/result2.jpg?raw=true)
 
 We can see that the output only prints the content within the first pair of parentheses following brackets per line, and ignores the other lines. This is not the ideal behaviour of the program.
-
+### Revision 3:
 After a considerable amount of consideration and testing, the following is the perfected code which can detect all of the bugs that had previously plagued the earlier code. It can parse multiple URLs per line, as well as detect, handle, and subsequently ignore malformed markdown links.
 ## Blame from rev 2 to final rev:
 ![blame1](https://raw.githubusercontent.com/nqrwhal/nqrwhal.github.io/master/docs/blame1.jpg)
@@ -46,7 +47,6 @@ After a considerable amount of consideration and testing, the following is the p
 Here is the code. I am quite proud of this solution:
 <script src="https://gist.github.com/nqrwhal/7aaa31fcbda4f57c6fc7a49f204d63ca.js"></script>
 
-
-Here is an example of a markdown file which would crash my previous code:
+Running the new code with the previous buggy markdown file returns the correct links:
 
 With the new and vastly improved error handling and accounting for edge cases, the new and updated code handles this with ease. Whereas running the older code with this file would produce malformed links, as well as false positives, this new code performs as it should.
