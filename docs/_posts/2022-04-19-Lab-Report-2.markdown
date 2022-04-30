@@ -35,7 +35,7 @@ While the code I had written worked with empty lines, lines with spacing between
 <script src="https://gist.github.com/nqrwhal/3cd18b537acc355ceb1313f9b34c6f81.js"></script>
 
 The output symptoms look like so:
-
+![result2](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/result2.jpg?raw=true)
 
 After a considerable amount of consideration and testing, the following is the perfected code which can detect all of the bugs that had previously plagued the earlier code. It can parse multiple URLs per line, as well as detect, handle, and subsequently ignore malformed markdown links.
 ## Blame from rev 2 to final rev:
