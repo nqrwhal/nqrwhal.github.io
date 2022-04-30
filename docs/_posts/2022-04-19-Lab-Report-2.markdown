@@ -48,5 +48,17 @@ Here is the code. I am quite proud of this solution:
 <script src="https://gist.github.com/nqrwhal/7aaa31fcbda4f57c6fc7a49f204d63ca.js"></script>
 
 Running the new code with the previous buggy markdown file returns the correct links:
+![result3](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/result3.jpg?raw=true)
 
 With the new and vastly improved error handling and accounting for edge cases, the new and updated code handles this with ease. Whereas running the older code with this file would produce malformed links, as well as false positives, this new code performs as it should.
+### Overlooked Bug? (Revision 4):
+
+My hubris caused my to overlook the most glaring bug: I forgot to account for running the program with no additional arguments. This caused the following error output:
+
+![indexbug](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/lastbug.jpg?raw=true)
+
+To fix this, I adjusted the code and committed the final changes.
+The final form of the code: 
+<script src="https://gist.github.com/nqrwhal/0e3f0d9386dd3b7f456022860fc77802.js"></script>
+
+The blame of the code changes:
