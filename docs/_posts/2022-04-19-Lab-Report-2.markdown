@@ -37,6 +37,8 @@ While the code I had written worked with empty lines, lines with spacing between
 The output symptoms look like so:
 ![result2](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/result2.jpg?raw=true)
 
+We can see that the output only prints the content within the first pair of parentheses following brackets per line, and ignores the other lines. This is not the ideal behaviour of the program.
+
 After a considerable amount of consideration and testing, the following is the perfected code which can detect all of the bugs that had previously plagued the earlier code. It can parse multiple URLs per line, as well as detect, handle, and subsequently ignore malformed markdown links.
 ## Blame from rev 2 to final rev:
 ![blame1](https://raw.githubusercontent.com/nqrwhal/nqrwhal.github.io/master/docs/blame1.jpg)
