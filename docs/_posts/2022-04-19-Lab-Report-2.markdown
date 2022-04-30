@@ -10,27 +10,29 @@ Here is the code my group was given at the beginning of the assignment:
 <script src="https://gist.github.com/nqrwhal/14b196f73020ba24b987d15c64861cfa.js"></script>
 
 The goal of the function is to correctly print a list of all valid links that would be rendered in markdown code. Running a simple test markdown file with a single link through it proves to be no problem:
+
 ![res1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/result1.jpg?raw=true)
 
-
-
-Here is an example of a file that would have caused a fatal error in the previous code, but passes without fail in my revision:
+However, when the markdown file contains an empty line at the end of the file, like so:
 <script src="https://gist.github.com/nqrwhal/a7d5ff070e4cab86f569ac448ea6582d.js"></script>
+
 We run into heap space errors due to an infinite loop. The empty line when running the code gives us a clue, and we can also check system resource utilization to see.
 
 ![heap1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/docs/img5.jpg?raw=true)
 ![loop](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/infiniteloop.jpg?raw=true)
 
-The bug in this case, is found in the empty lines at the end of the file. Because the code is written improperly with loops, the program enters an infinite loop and eventually the machine runs out of memory. My new approach turned the lines of the markdown file into an ArrayList of Strings, and deals with each one separately. 
+The bug in this case, is specifically because of the empty lines. Because the code is written improperly with loops, the program enters an infinite loop and eventually the machine runs out of memory and the program crashes.
 
-
-Comparing the rewritten code to the original code, it is clear that my first rewrite handled several of the problems.
+I rewrote the code to return the file contents as an ArrayList composed of each line of the file. It will deal with empty lines properly without a crash. 
 <script src="https://gist.github.com/nqrwhal/16a3d7eb1ca15eda9cb4886512dcc8d3.js"></script>
 
+Here are the code differences: 
 ## Blame from rev 1 to rev 2:
 ![blame1](https://raw.githubusercontent.com/nqrwhal/nqrwhal.github.io/master/docs/blame1.jpg)
 
-
+Now that I had dealt with the first identified bug, I was now ready to tackle the bigger problem, detecting only correct links.
+While the code I had written worked with empty lines, lines with spacing between the [] and () in the markdown file would still be recognized as valid links. An example of a file that would produce a bug in my code would be the following: 
+<script src="https://gist.github.com/nqrwhal/3cd18b537acc355ceb1313f9b34c6f81.js"></script>
 
 After a considerable amount of consideration and testing, the following is the perfected code which can detect all of the bugs that had previously plagued the earlier code. It can parse multiple URLs per line, as well as detect, handle, and subsequently ignore malformed markdown links.
 ## Blame from rev 2 to final rev:
@@ -41,5 +43,5 @@ Here is the code. I am quite proud of this solution:
 
 
 Here is an example of a markdown file which would crash my previous code:
-<script src="https://gist.github.com/nqrwhal/3cd18b537acc355ceb1313f9b34c6f81.js"></script>
+
 With the new and vastly improved error handling and accounting for edge cases, the new and updated code handles this with ease. Whereas running the older code with this file would produce malformed links, as well as false positives, this new code performs as it should.
