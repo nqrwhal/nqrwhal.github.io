@@ -62,3 +62,6 @@ The final form of the code:
 <script src="https://gist.github.com/nqrwhal/0e3f0d9386dd3b7f456022860fc77802.js"></script>
 
 The blame of the code changes:
+![blame](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/lastblame.jpg?raw=true)
+
+With this change, my code is now bulletproof.
