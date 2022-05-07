@@ -51,3 +51,10 @@ You should then be able to connect to Github. You can try running the command ``
 
 
 Here's the [link](https://github.com/nqrwhal/skill1/commit/3d607e0f7b66d218b8d5a65b3b134ce90be2cd5a) to the commit.
+
+### Using SCP -r to copy entire repositories
+
+
+You can use the ```-r``` flag on your commands, meaning recursive, to apply the command to every file in a folder.
+
+Here, I will use ```scp -r ``` to copy the contents of an entire folder from my local computer to the server.
