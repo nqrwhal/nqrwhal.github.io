@@ -29,3 +29,14 @@ This is what connecting via ssh alias looks like:
 Using SCP to transfer files with alias:
 
 ![scp](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/scp.jpg?raw=true)
+
+
+### SSH with Github
+
+You can use SSH keys to authenticate while pushing changes to Github.
+
+
+
+
+
+Here's the [link](https://github.com/nqrwhal/skill1/commit/3d607e0f7b66d218b8d5a65b3b134ce90be2cd5a) to the commit.
