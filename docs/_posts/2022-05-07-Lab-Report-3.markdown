@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Lab Report 3: SSH Aliasing"
+date:   2022-05-07 16:00:00 -0700
+categories: Lab-Report 
+---
+
+### SSH Aliasing
+
+This week we learned how to set an alias for an SSH connection, simplifying the connection process. In order to set up an alias, you first navigate to the config file in the .ssh folder. 
+The format for alias entries in the config file is: 
+``` Host [Alias Name]
+    Hostname [Hostname here]
+    User [Username here]
+```
+
