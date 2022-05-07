@@ -34,7 +34,18 @@ Using SCP to transfer files with alias:
 ### SSH with Github
 
 You can use SSH keys to authenticate while pushing changes to Github.
+Github has a panel where you can manage all SSH keys for your account, adding or deleting them.
 
+![panel](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/ghkeys.jpg?raw=true)
+
+Once you have added your SSH public key, which you can find here:
+
+![public](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/keylocation.jpg?raw=true)
+
+
+You should then be able to connect to Github. You can try running the command ```ssh -T git@github.com```, and you will receive the following message if you are able to connect.
+
+![sshpush](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/gitactions.jpg?raw=true)
 
 
 
