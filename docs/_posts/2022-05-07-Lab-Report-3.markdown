@@ -16,3 +16,13 @@ Host [Alias Name]
     User [Username here]
 ```
 
+Here's what my config file looks like:
+![hosts](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/host.jpg?raw=true)
+
+
+This is what connecting via ssh alias looks like:
+![alias](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/ssh.jpg?raw=true)
+
+
+Using SCP to transfer files with alias:
+![scp](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/scp.jpg?raw=true)
