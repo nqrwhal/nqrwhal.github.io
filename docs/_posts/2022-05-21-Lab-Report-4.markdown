@@ -10,3 +10,8 @@ categories: Lab-Report
 For this lab report, we were tasked with testing our own implementations of the markdown parser against a specific implementation we used in a lab. There are three snippets of code supplied, and we run each snippet through both implementations for six total tests.
 
 This is the implementation I wrote: [myParse](https://github.com/nqrwhal/markdown-parser)
+
+This is the implementation we reviewed: [exampleParse](https://github.com/canitry/markdown-parser)
+
+
+### First Snippet
