@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Lab Report 4: Markdown Parse Shenanigans"
+date:   2022-05-21 16:00:00 -0700
+categories: Lab-Report 
+---
+
+### Markdown Parser
+
+For this lab report, we were tasked with testing our own implementations of the markdown parser against a specific implementation we used in a lab. There are three snippets of code supplied, and we run each snippet through both implementations for six total tests.
