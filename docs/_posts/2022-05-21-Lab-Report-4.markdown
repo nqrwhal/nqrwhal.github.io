@@ -75,3 +75,15 @@ Second snippet:
 Third Snippet:
 
 ![mine3](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/mine3.jpg?raw=true)
+
+Example Implementation 1st snippet: 
+
+![ex1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/ex1.jpg?raw=true)
+
+Second snippet:
+
+![ex2](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/ex2.jpg?raw=true)
+
+Third snippet:
+
+![ex3](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/ex3.jpg?raw=true)
