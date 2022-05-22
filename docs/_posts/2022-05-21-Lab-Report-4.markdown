@@ -73,7 +73,7 @@ Here are the tests for the example:
 
 
 ### The results:
-This is the my implementation and the first snippet:
+This is my implementation and the first snippet:
 
 ![mine1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/mine1.jpg?raw=true)
 
