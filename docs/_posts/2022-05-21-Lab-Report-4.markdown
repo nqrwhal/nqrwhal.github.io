@@ -94,7 +94,7 @@ Example Implementation 1st snippet:
 
 ![ex1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/ex1.jpg?raw=true)
 
-In this implementation, the code incorrectly returns ucsd.edu as a link, when it is not rendered in markdown.
+In this implementation, the code incorrectly returns url.com as a link, when it is not rendered in markdown.
 
 
 Second snippet:
