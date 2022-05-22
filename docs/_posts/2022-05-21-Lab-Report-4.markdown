@@ -100,3 +100,17 @@ Third snippet:
 ![ex3](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/ex3.jpg?raw=true)
 
 This implementation incorrectly returns two additional that should not be returned, because they are not rendered as valid links in markdown.
+
+### Questions
+
+# 1
+
+It would be possible to change my implementation of MarkdownParse to handle backticks, but I'm not sure it would be possible to do in ten lines of code. Because of the nature of how my code functions, there are a significant amount of small changes I need to make throughout my code to account for backticks.
+
+# 2
+
+Again, this would be possible to change but not within ten lines of code. I would need to implenent counting the number of parentheses and brackets into the code, and also accounting for backticks escaping any of these characters. If implemented together with the code block change, it could potentially be easier to write.
+
+# 3
+
+It would be possible to implement this code, potentially even by removing a significant amount of code from my code. Because I use a line by line parsing method of the markdown file, I had solved some issues with infinite loops. However, with a few simple checks this could be avoided. My code would be able to work with linebreaks in the parentheses and brackets.
