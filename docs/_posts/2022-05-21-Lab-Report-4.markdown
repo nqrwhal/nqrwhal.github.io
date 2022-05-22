@@ -63,6 +63,15 @@ And there's still some more text after that.
 And then there's more text
 ```
 
+### The tests:
+Here are the tests for my implementation:
+![mtest]()
+
+
+Here are the tests for the example:
+![extest]()
+
+
 ### The results:
 This is the my implementation and the first snippet:
 
