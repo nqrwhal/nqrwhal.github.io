@@ -72,10 +72,12 @@ The expected results were obtained after running the test. Only correctly format
 Second snippet:
 
 ![mine2](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/mine2.jpg?raw=true)
+For this snippet, we expected all three links to be rendered, but my implementation only correctly returned the first one. The second one was improperly parsed, and the third one ignored due to the escaped brackets.
 
 Third Snippet:
 
 ![mine3](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/mine3.jpg?raw=true)
+For the third snippet, only the schedule link should be returned. However, my implementation uses a line by line approach that fails in parsing the link properly.
 
 Example Implementation 1st snippet: 
 
