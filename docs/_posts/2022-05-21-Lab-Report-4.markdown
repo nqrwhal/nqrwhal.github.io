@@ -77,7 +77,7 @@ This is my implementation and the first snippet:
 
 ![mine1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/mine1.jpg?raw=true)
 
-The expected results were obtained after running the test. Only correctly formatted links were returned.
+My code did not return the correct links, failing to return the last link and returning the first one instead.
 Second snippet:
 
 ![mine2](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/mine2.jpg?raw=true)
