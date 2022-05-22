@@ -15,11 +15,12 @@ This is the implementation we reviewed: [exampleParse](https://github.com/canitr
 
 
 ### First Snippet
-` "" `[a link`](url.com)
+``` 
+"" `[a link`](url.com)
 
 [another link](`google.com)`
 
 [`cod[e`](google.com)
 
 [`code]`](ucsd.edu) ""
-`
+```
