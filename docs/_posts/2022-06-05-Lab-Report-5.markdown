@@ -7,4 +7,4 @@ categories: Lab-Report
 
 ### First Test
 
-For my first test, I decided to use 12.md as the test file. This is the [link](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/12.md)
+For my first test, I decided to use 12.md as the test file. This is the [link](https://github.com/nidhidhamnani/markdown-parser/blob/main/test-files/12.md). The tool is going to be vimdiff.
