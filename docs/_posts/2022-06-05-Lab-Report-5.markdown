@@ -11,7 +11,9 @@ For my first test, I decided to use 12.md as the test file. This is the [link](h
 
 ### Results
 
-
+This is my implementation:
 ![img1](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/l5i1.jpg?raw=true)
-
+This is the provided implementation:
 ![img2](https://github.com/nqrwhal/nqrwhal.github.io/blob/master/imgs/l5i2.jpg?raw=true)
+
+The provided implementation creates an infinite loop, whereas mine returns an empty array, meaning no links. The expected output of this is an empty array.
